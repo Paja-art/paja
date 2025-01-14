@@ -1,0 +1,19 @@
+# 2D Hra
+
+## Popis
+Jedná se o 2D hru, ve které hráč může skákat a získávat body.
+
+## Instalace
+1. Stáhněte nebo naklonujte tento repozitář.
+2. Otevřete projekt v preferovaném vývojovém prostředí.
+3. Spusťte hru pomocí příkazu `npm start` (nebo jiného příkazu podle použité technologie).
+
+## Použití
+- Pomocí šipek na klávesnici ovládejte postavu.
+- Skákejte pomocí mezerníku.
+- Sbírejte body a snažte se dosáhnout co nejvyššího skóre.
+
+## Funkce
+- Skákání
+- Získávání bodů
+
