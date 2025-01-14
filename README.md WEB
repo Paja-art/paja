@@ -1,0 +1,18 @@
+# Interaktivní stránka
+
+## Popis
+Tento projekt je jednoduchý web, který obsahuje tři interaktivní tlačítka.
+
+## Instalace
+1. Stáhněte nebo naklonujte tento repozitář.
+2. Otevřete projekt v preferovaném vývojovém prostředí.
+3. Spusťte webový server (např. pomocí příkazu `npm start` nebo jiného příkazu podle použité technologie).
+
+## Použití
+- Otevřete webovou stránku v prohlížeči.
+- Klikněte na interaktivní tlačítka pro provedení různých akcí.
+
+## Funkce
+- Tlačítko 1: Zobrazí upozornění "Tlačítko 1 bylo kliknuto!".
+- Tlačítko 2: Zobrazí upozornění "Tlačítko 2 bylo kliknuto!".
+- Tlačítko 3: Zobrazí upozornění "Tlačítko 3 bylo kliknuto!".
