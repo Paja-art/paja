@@ -1,0 +1,24 @@
+# Database Schema for Project
+
+## Popis
+Tento repozitář obsahuje schéma databáze pro projekt. Schéma je navrženo pomocí MySQL Workbench a zahrnuje následující tabulky:
+
+## Tabulky
+
+### 1. block
+- `id_block`: INT, Primární klíč
+- `name`: VARCHAR
+
+### 3. template
+- `id_template`: INT, Primární klíč
+- `name`: VARCHAR
+- `path`: VARCHAR
+
+## Vztahy
+- `block` a `template` mají mnoho-na-mnoho vztah prostřednictvím `block_has_template`.
+- `template` a `parameters` mají mnoho-na-mnoho vztah prostřednictvím `template_has_parameters`.
+- Tabulka `parameters` obsahuje cizí klíče na `template`, `block` a `block_has_template` pro vytvoření složitých vztahů.
+
+## Použití
+Toto schéma databáze se používá k správě bloků, šablon a jejich parametrů v rámci projektu. Každý blok může mít více šablon a každá šablona může mít více parametrů. Pozice a rotace šablon v blocích jsou také uloženy.
+
